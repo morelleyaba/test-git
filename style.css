@@ -1,0 +1,123 @@
+/* CSS general*/
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 20px;
+}
+ul, ol{
+    list-style: none;
+
+}
+.wrapper{
+    width: 900px;
+    margin: 0 auto;
+    Padding: 0 10px;
+}
+.contenu{
+    line-height: 40px;
+    font-size: 20px;
+}
+
+
+/* En tête du CV */
+
+.entete{    
+    width: 400px;
+    font-family: 'black to black', 'arial';
+    text-align: center;
+    border: 2px #000 solid;
+    margin: 20px auto;
+    background-color: rgb(2, 2, 85);
+}
+.entete h1{
+    color: #fff;
+}
+
+
+/* Presentation */
+
+#presentation{
+    line-height: 30px;
+    margin: 20px 50px 50px 20px;
+    padding: 30px;
+    border: 2px #000 solid;
+    background-color: rgb(2, 2, 85);
+}
+#presentation img{
+    float: right;
+    padding-bottom: 50px;
+}
+.list-presentation ul li{
+    color: #fff;
+    font-family: cambria;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.list-presentation i{
+    text-decoration: underline;
+    font-style: normal;
+    color: rgba(5, 113, 255, 0.603);
+}
+
+
+/* Diplome */
+
+#diplome h2{    
+    width: 800px;
+    font-family: 'black to black', 'arial';
+    text-align: center;
+    border: 2px #000 solid;
+    margin: 20px auto;
+    background-color: rgb(2, 2, 85);
+    color: #fff;
+    padding: 10px;
+}
+
+
+
+/* formation */
+#formation h2{    
+    width: 800px;
+    font-family: 'black to black', 'arial';
+    text-align: center;
+    border: 2px #000 solid;
+    margin: 20px auto;
+    background-color: rgb(2, 2, 85);
+    color: #fff;
+    padding: 10px;
+}
+
+
+
+/* Divers */
+#divers h2{    
+    width: 800px;
+    font-family: 'black to black', 'arial';
+    text-align: center;
+    border: 2px #000 solid;
+    margin: 20px auto;
+    background-color: rgb(2, 2, 85);
+    color: #fff;
+    padding: 10px;
+}
+.title_divers{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.element_divers {
+    font-size: 20px ;
+    float: left;
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 5px;
+}
+.progression_recul {
+    margin-left: 90px;
+}
